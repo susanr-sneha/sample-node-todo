@@ -8,7 +8,7 @@ exports.sampleRequest = function (req, res) {
     }
 
     var response = {
-        "text": "Hello " + name
+        "text": "Hello " + 'text'
     };
 
     res.statusCode = 200;
